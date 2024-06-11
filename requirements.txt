@@ -1,0 +1,9 @@
+langchain-core
+fastapi
+langchain
+streamlit
+google-generativeai
+PyPDF2
+scipy
+langchain-community
+openai
