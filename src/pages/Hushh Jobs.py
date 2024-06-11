@@ -73,7 +73,7 @@ def main():
                 with get_openai_callback() as cb:
                     try:
                         result = model(input.to_string())
-                        st.success(result)
+                        # st.success(result)
                         class_object= parser.parse(result)  #using the above defined pydantic output parser to structure the response in a json-format
                         dict_object=class_object.__dict__
                         #dict_object = json.loads(result)
