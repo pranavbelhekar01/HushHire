@@ -5,10 +5,11 @@ import google.generativeai as genai
 import re
 
 app = FastAPI()
+from dotenv import load_dotenv
 
+load_dotenv()
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyA6cT3ZpL2WM0vxVct5CC6a8Ok6GeWnpy0")
-
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 # Function to extract text from PDF
 def extract_text_from_pdf(file):
     reader = PyPDF2.PdfReader(file)

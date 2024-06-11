@@ -1,1 +1,4 @@
 .env
+src/credentials.txt
+src/credentials_webapp.json
+src\client_secret_53407187172-283soe7ku29rkrmch51r1d7rkghmpie3.apps.googleusercontent.com.json
