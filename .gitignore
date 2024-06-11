@@ -1,5 +1,5 @@
 .env
-src/*.json
+# src/*.json
 src/*.txt
 # credentials.txt
 # credentials_webapp.json
